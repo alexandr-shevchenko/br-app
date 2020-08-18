@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Domain\AstrologerService\Entity;
 
 use App\Domain\Astrologer\Entity\Astrologer;
-use App\Domain\Entity\Service;
+use App\Domain\Service\Entity\Service;
 use Ramsey\Uuid\Uuid;
 
 class AstrologerService

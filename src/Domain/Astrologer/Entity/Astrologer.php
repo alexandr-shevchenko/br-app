@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Domain\Astrologer\Entity;
 
-use App\Domain\Entity\AstrologerService;
+use App\Domain\AstrologerService\Entity\AstrologerService;
 use Doctrine\Common\Collections\ArrayCollection;
 use Ramsey\Uuid\Uuid;
 
