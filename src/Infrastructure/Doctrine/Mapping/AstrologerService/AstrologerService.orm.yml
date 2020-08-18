@@ -8,10 +8,10 @@ App\Domain\AstrologerService\Entity\AstrologerService:
         strategy: AUTO
   fields:
     astrologer:
-      type: astrologer
+      targetEntity: App\Domain\Astrologer\Entity\Astrologer
       nullable: false
     service:
-      type: service
+      targetEntity: App\Domain\Service\Entity\Service
       nullable: false
     price:
       type: decimal

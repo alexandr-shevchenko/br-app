@@ -5,6 +5,11 @@ doctrine:
         # IMPORTANT: You MUST configure your server version,
         # either here or in the DATABASE_URL env var (see .env file)
         #server_version: '5.7'
+
+        types:
+            astrologer: App\Infrastructure\Doctrine\Types\AstrologerType
+            service: App\Infrastructure\Doctrine\Types\ServiceType
+
     orm:
         auto_generate_proxy_classes: true
         naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
@@ -13,20 +18,23 @@ doctrine:
             Astrologer:
                 is_bundle: false
                 type: yml
-                dir: '%kernel.project_dir%/src/Representation/Database/config/doctrine'
+                dir: '%kernel.project_dir%/src/Infrastructure/Doctrine/Mapping/Astrologer'
                 prefix: 'App\Domain\Astrologer\Entity'
+                alias: Astrologer
             AstrologerService:
                 is_bundle: false
                 type: yml
-                dir: '%kernel.project_dir%/src/Representation/Database/config/doctrine'
+                dir: '%kernel.project_dir%/src/Infrastructure/Doctrine/Mapping/AstrologerService'
                 prefix: 'App\Domain\AstrologerService\Entity'
+                alias: AstrologerService
             Service:
                 is_bundle: false
                 type: yml
-                dir: '%kernel.project_dir%/src/Representation/Database/config/doctrine'
+                dir: '%kernel.project_dir%/src/Infrastructure/Doctrine/Mapping/Service'
                 prefix: 'App\Domain\Service\Entity'
+                alias: Service
             User:
                 is_bundle: false
                 type: yml
-                dir: '%kernel.project_dir%/src/Representation/Database/config/doctrine'
+                dir: '%kernel.project_dir%/src/Infrastructure/Doctrine/Mapping/User'
                 prefix: 'App\Domain\User\Entity'
