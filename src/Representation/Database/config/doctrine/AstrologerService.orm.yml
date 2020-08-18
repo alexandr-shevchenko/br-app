@@ -1,0 +1,20 @@
+App\Domain\AstrologerService\Entity\AstrologerService:
+  type: entity
+  table: astrologer_services
+  id:
+    id:
+      type: uuid
+      generator:
+        strategy: AUTO
+  fields:
+    astrologer:
+      type: astrologer
+      nullable: false
+    service:
+      type: service
+      nullable: false
+    price:
+      type: decimal
+      precision: 12
+      scale: 2
+      nullable: false

@@ -10,9 +10,23 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
         auto_mapping: true
         mappings:
-            App:
+            Astrologer:
                 is_bundle: false
-                type: annotation
-                dir: '%kernel.project_dir%/src/Entity'
-                prefix: 'App\Entity'
-                alias: App
+                type: yml
+                dir: '%kernel.project_dir%/src/Representation/Database/config/doctrine'
+                prefix: 'App\Domain\Astrologer\Entity'
+            AstrologerService:
+                is_bundle: false
+                type: yml
+                dir: '%kernel.project_dir%/src/Representation/Database/config/doctrine'
+                prefix: 'App\Domain\AstrologerService\Entity'
+            Service:
+                is_bundle: false
+                type: yml
+                dir: '%kernel.project_dir%/src/Representation/Database/config/doctrine'
+                prefix: 'App\Domain\Service\Entity'
+            User:
+                is_bundle: false
+                type: yml
+                dir: '%kernel.project_dir%/src/Representation/Database/config/doctrine'
+                prefix: 'App\Domain\User\Entity'

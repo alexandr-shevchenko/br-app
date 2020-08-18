@@ -1,0 +1,11 @@
+App\Domain\Service\Entity\Service:
+  type: entity
+  table: services
+  id:
+    id:
+      type: uuid
+      generator:
+        strategy: AUTO
+  fields:
+    title:
+      type: string

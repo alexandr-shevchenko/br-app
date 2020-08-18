@@ -1,0 +1,25 @@
+App\Domain\Astrologer\Entity\Astrologer:
+  type: entity
+  table: astrologers
+  id:
+    id:
+      type: uuid
+      generator:
+        strategy: AUTO
+  fields:
+    name:
+      type: string
+    photo:
+      type: string
+    email:
+      type: string
+      unique: true
+    description:
+      type: text
+    personalInfo:
+      type: text
+
+  oneToMany:
+    services:
+      targetEntity: App\Domain\AstrologerService\Entity\AstrologerService
+      mappedBy: astrologer

@@ -1,0 +1,14 @@
+App\Domain\User\Entity\User:
+  type: entity
+  table: users
+  id:
+    id:
+      type: uuid
+      generator:
+        strategy: AUTO
+  fields:
+    name:
+      type: string
+    email:
+      type: string
+      unique: true
