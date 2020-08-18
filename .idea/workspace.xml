@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,9 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="236846ed-4214-4b3f-bae6-ae51c16f4ad2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Representation/AstrologerApi/Controller/AstrologerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Representation/AstrologerApi/Service/AstrologerProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/br-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/br-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20200818120508.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20200818120508.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +108,13 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid-doctrine" />
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gGEEcfkjdxllKHMsW8oJuFNM5s" />
@@ -129,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597732420177</updated>
-      <workItem from="1597732422042" duration="8661000" />
+      <workItem from="1597732422042" duration="15224000" />
     </task>
     <servers />
   </component>
@@ -152,14 +170,14 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="970" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1597752764656" />
-    <state x="698" y="362" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597736230388">
+    <state x="698" y="362" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597753623654">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="698" y="362" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1597736230388" />
-    <state x="619" y="333" key="NewPhpClassDialog" timestamp="1597752212777">
+    <state x="698" y="362" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1597753623654" />
+    <state x="619" y="333" key="NewPhpClassDialog" timestamp="1597753598399">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="619" y="333" key="NewPhpClassDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1597752212777" />
+    <state x="619" y="333" key="NewPhpClassDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1597753598399" />
     <state x="461" y="239" key="SettingsEditor" timestamp="1597733779772">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -172,9 +190,9 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="166" y="23" width="1580" height="1053" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1597752026315" />
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1597751487392">
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1597763227758">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1597751487392" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1597763227758" />
   </component>
 </project>
