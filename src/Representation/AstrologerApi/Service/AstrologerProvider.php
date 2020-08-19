@@ -21,6 +21,6 @@ class AstrologerProvider
      */
     public function getAstrologers(): iterable
     {
-        $this->astrologerRepository->findAll();
+        return $this->astrologerRepository->findAll();
     }
 }

@@ -19,7 +19,8 @@ App\Domain\Astrologer\Entity\Astrologer:
     personalInfo:
       type: text
 
-  oneToMany:
+  manyToMany:
     services:
       targetEntity: App\Domain\AstrologerService\Entity\AstrologerService
-      mappedBy: astrologer
+      joinTable:
+        name: astrologer_services

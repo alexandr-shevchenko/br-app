@@ -22,5 +22,6 @@ class AstrologerController
     public function getAstrologersList(): void
     {
         $astrologers = $this->astrologerProvider->getAstrologers();
+        dump($astrologers);
     }
 }

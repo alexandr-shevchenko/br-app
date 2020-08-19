@@ -9,6 +9,7 @@ doctrine:
         types:
             astrologer: App\Infrastructure\Doctrine\Types\AstrologerType
             service: App\Infrastructure\Doctrine\Types\ServiceType
+            uuid: Ramsey\Uuid\Doctrine\UuidType
 
     orm:
         auto_generate_proxy_classes: true

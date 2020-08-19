@@ -6,20 +6,20 @@ namespace App\Domain\Astrologer\Entity;
 
 use App\Domain\AstrologerService\Entity\AstrologerService;
 use Doctrine\Common\Collections\ArrayCollection;
-use Ramsey\Uuid\Uuid;
+use Ramsey\Uuid\UuidInterface;
 
 class Astrologer
 {
-    private Uuid $id;
+    private UuidInterface $id;
     private string $name;
     private string $photo;
     private string $email;
     private string $description;
     private string $personalInfo;
-    private AstrologerService $services;
+    private ArrayCollection $services;
 
     public function __construct(
-        Uuid $id,
+        UuidInterface $id,
         string $name,
         string $photo,
         string $email,
@@ -38,15 +38,15 @@ class Astrologer
     /**
      * @return ArrayCollection|AstrologerService[]
      */
-    public function getServices(): iterable
+    public function getServices(): array
     {
         return $this->services;
     }
 
     /**
-     * @return Uuid
+     * @return UuidInterface
      */
-    public function getId(): Uuid
+    public function getId(): UuidInterface
     {
         return $this->id;
     }
